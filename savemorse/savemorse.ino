@@ -58,7 +58,7 @@ void EEPROM_SAVE ( void ) {
 // Could add some code to test the memory here, if the data is there then don't
 void setup() {
   // put your setup code here, to run once:
-  
+  EEPROM_SAVE();
 
 }
 
